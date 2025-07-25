@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 import joblib
 
 app = Flask(__name__)
-model = joblib.load('D:/Python/project/model.pkl')
-vectorizer = joblib.load('D:/Python/project/vectorizer.pkl')
+model = joblib.load('model.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
 
 @app.route('/')
 def home():
