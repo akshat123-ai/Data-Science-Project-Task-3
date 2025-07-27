@@ -145,3 +145,7 @@ python train_model.py
 - Enhance UI with **Bootstrap** or **React** frontend.
 
 ---
+
+## Output
+
+<img width="1915" height="877" alt="Image" src="https://github.com/user-attachments/assets/7b16617a-b4e5-41c5-b190-6d3220682c9f" />
