@@ -1,3 +1,14 @@
+*COMPANY*: CODTECH IT SOLUTIONS
+
+ *NAME*: AKSHAT JAIN
+
+*INTERN ID*: CT04DH1930
+
+*DOMAIN*: DATA SCIENCE
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTHOSH
 
 # 🎨 IMDb Review Sentiment Analyzer using Flask & Machine Learning
 
