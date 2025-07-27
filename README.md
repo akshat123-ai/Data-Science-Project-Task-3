@@ -91,26 +91,40 @@ git clone https://github.com/yourusername/sentiment-analyzer.git
 cd sentiment-analyzer
 ```
 
-2. **Install Dependencies**
+2. **Create & Activate Virtual Environment**
 
 ```bash
-pip install flask pandas scikit-learn joblib
+# Create virtual environment
+python -m venv venv
+
+# Activate
+# Windows:
+venv\Scripts\activate
+
+# Mac/Linux:
+source venv/bin/activate
 ```
 
-3. **Train the Model (if not pre-trained)**
+3. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Train the Model (if not already done)**
 
 ```bash
 python train_model.py
 ```
 
-4. **Run Flask App**
-
+5. **Run the Flask Application**
 ```bash
-python app.py
+   python app.py
 ```
 
-5. **Open in Browser**
-   Go to: `http://127.0.0.1:5000/`
+6. **Access in Browser**
+
+-Go to: http://127.0.0.1:5000/
 
 ---
 
